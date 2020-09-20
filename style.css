@@ -1,0 +1,272 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+font-family: sans-serif;
+color: white;
+background-color: hsl(218, 28%, 13%)
+
+
+}
+.first{
+  background-color: hsl(217, 28%, 15%);
+  position: relative;
+}
+.intro{
+  text-align: center;
+}
+.images{
+  width: 100%;
+}
+.image{
+  width: 60%;
+}
+h3{
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.word{
+  width: 35%;
+  margin: 80px auto 0;
+  position: absolute;
+  text-align: center;
+  left: 34%;
+
+}
+
+.btns{
+  margin: 50px;
+  border-radius: 40px;
+  background-color: hsl(176, 68%, 64%);
+
+}
+.contains{
+  background-color: hsl(218, 28%, 13%);
+  padding-bottom: 40px;
+  text-align: center;
+  width: 49%;
+  display: inline-block;
+  margin-bottom: 50px;
+
+}
+
+.bodies{
+  background-color: hsl(218, 28%, 13%);
+
+}
+.head{
+  width: 100%;
+}
+.head-word{
+  width: 56%;
+  margin: 0 auto;
+}
+
+.head-word-two{
+  text-align: left;
+  width: 80%;
+  margin: 40px;
+}
+.productive{
+
+}
+.stay{
+  text-align: left;
+}
+.linker{
+  color: hsl(176, 68%, 64%);
+  text-decoration: underline;
+}
+
+.testimon{
+  text-align: center;
+  background-color: hsl(218, 28%, 13%);
+  margin-top: 0;
+  padding-bottom: 250px;
+}
+.test-one{
+  text-align:left;
+  padding: 20px;
+  width: 25%;
+  display: inline-block;
+  margin: 0 30px;
+  background-color: hsl(219, 30%, 18%);
+  font-size: 14px;
+}
+
+.test-one p{
+  padding-top: 40px;
+}
+.test-pix{
+  border-radius: 50%;
+  width: 40%;
+}
+
+
+.text-content p{
+  font-size: 10px;
+  padding-top: 0;
+
+
+}
+
+td{
+  padding: 0;
+  margin: 0;
+}
+table{
+  margin-top: 40px;
+}
+
+.quote{
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 100px;
+}
+.relatives{
+  position: relative;
+}
+.forms{
+  background-color: hsl(217, 28%, 15%);
+  padding: 30px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 260px;
+  top:450px;
+  box-shadow: 5px 5px black;
+
+}
+.forms .form{
+  text-align: center;
+  margin-left: 140px;
+}
+.inputs{
+  border-radius: 70px;
+}
+.inputs-botton{
+  background-color: hsl(176, 68%, 64%);
+}
+.footers{
+  padding: 160px 40px;
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer-text{
+  width:350px;
+  display: inline-block;
+  margin:0 20px;
+}
+.footer-icon{
+  text-align: left;
+  margin-right: 30px;
+}
+.footer-texts{
+  margin-right: 40px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.foot{
+  text-align: justify;
+  padding: 0;
+}
+.footer-text1{
+  margin: 20px 40px 0;
+  display: inline-block;
+  padding-bottom: 20px;
+
+
+}
+
+.footer-text2{
+  margin: 20px 0;
+  display: inline-block;
+  padding-bottom: 40px;
+}
+
+.font{
+  margin: 40px;
+
+}
+
+@media (max-width : 1004px) {
+  .contains{
+    display: block;
+    width: 100%;
+  }
+  .word{
+    width: 100%;
+    position: static;
+
+  }
+h3{
+  width: 100%;
+}
+.productive{
+  width: 100%;
+}
+.test-one{
+  width: 70%;
+  display: block;
+  margin: 20px auto;
+}
+.quote{
+  padding-left: 50px;
+}
+.forms{
+  padding: 9px;
+  width: 90%;
+  position: absolute;
+  left: 20px;
+  top:1000px;
+
+}
+.footers{
+  padding-left: 0;
+}
+.table-adjust{
+  width: 80%;
+  margin-left: 20px;
+  text-align: left;
+}
+.footer-text1{
+  display:block;
+
+}
+.footer-pic{
+  width: 60%;
+  margin: 20px;
+  display: block;
+}
+.form-align{
+  text-align: center;
+  margin: 0 auto;
+}
+.form{
+  margin: auto;
+}
+.inputs,.inputs-botton{
+  display: block;
+  margin:auto;
+}
+.font{
+  margin: 20px;
+}
+.footer-texts1{
+  width: 70%;
+  margin: 0 auto;
+
+}
+.head{
+  margin: 30px 0;
+}
+.stay{
+  padding-left: 30px;
+}
+}
